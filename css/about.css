@@ -1,0 +1,86 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+}
+/* Menu */
+.navbar-dark .navbar-nav .nav-link {
+  font-family: 'Montserrat', sans-serif;
+  color: white !important;
+}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+  background-color: black !important;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: black !important;
+  background-color: white;
+}
+.navbar-brand {
+  padding: 0 5px;
+  border: 2px solid white;
+}
+body {
+  background-color: #f8f9fa !important;
+  height: 100%;
+  min-height: 100%;
+}
+/*footer*/
+.footer{
+  clear: both;
+  position: relative;
+  height: 100px;
+  margin: 0 0;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: small;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+h1,h2 {
+  padding: 10px 10px;
+  padding-top: 20px;
+  margin-left: 15px;
+  text-align: center;
+}
+.ulist {
+  text-align: left;
+  margin: 10px auto;
+  width: 70%;
+}
+.pt {
+  padding: 2.5px 15px;
+}
+.sob, .aim, .value {
+  width: 80%;
+  overflow-wrap: normal;
+  text-align: center;
+  margin: 10px auto;
+}
+.value-ls {
+  text-align: center;
+  margin: 0 10px;
+}
+
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  
+}
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  
+}
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  
+}
